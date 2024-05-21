@@ -39,7 +39,7 @@ const Profile = () => {
 
   return (
     <div>
-      <div className="mx-10 mt-10">
+      <div className="md:mx-10 mx-5 mt-10">
         <div className="stats bg-base-200 shadow w-full">
           <div className="stat">
             <div className="stat-figure text-primary">
@@ -114,7 +114,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="md:flex gap-10 m-10">
+      <div className="md:flex gap-10 m-5 md:m-10">
         <div className="bg-gray-200 md:w-[50%] py-10 md:px-20 px-10 mx-auto rounded-xl">
           <h2 className="text-xl font-semibold mb-5 flex items-center gap-2 justify-center">
             _Personal Info
