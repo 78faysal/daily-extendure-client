@@ -150,7 +150,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="md:mx-10 max-sm:mx-5 mb-10 bg-base-200 p-4 rounded-xl">
+      <div className="md:mx-10 max-sm:mx-5 mb-10 bg-base-200 p-4 rounded-xl overflow-x-auto">
         <h2 className="text-lg font-semibold text-center">Customer List</h2>
         {statistics?.customersInfo?.length > 0 && (
           <table className="table">
